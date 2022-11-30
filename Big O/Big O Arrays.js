@@ -8,4 +8,7 @@ myArray.shift() // Adds to the front of the  array; causes re-indexing; O(n)
 
 myArray.unshift() // Removes from the front of the array; cause re-indexing: O(n)
 
-myArray.splice(1, 0, 'Yay') // Adds tom the middle of the array; causes re-indexing; O(n) 
+
+myArray.splice(1, 0, 'Yay') // Adds to the middle of the array; causes re-indexing; O(n) 
+
+myArray.splice(1, 0, 'Yay') // Adds to the middle of the array; causes re-indexing; O(n)
